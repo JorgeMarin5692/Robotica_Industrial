@@ -49,9 +49,9 @@ Pasos para la creación del entorno de simulación:
 
 - Instalación de ROS2 y MoveIt: Se instalará ROS2 y MoveIt en el sistema Ubuntu siguiendo las instrucciones oficiales de instalación.
 
-- Modelado del brazo robótico: Se creará un modelo 3D preciso del brazo robótico utilizando herramientas de modelado 3D como Solidworks o Blender. El modelo debe incluir todas las articulaciones, dimensiones y propiedades físicas del brazo real.
+- Modelado del brazo robótico: Se creará un modelo 3D preciso del brazo robótico utilizando herramientas de modelado 3D como es Solidworks. El modelo debe incluir todas las articulaciones, dimensiones y propiedades físicas del brazo real.
 
-- Integración del modelo en ROS2: Se integrará el modelo 3D del brazo robótico en el entorno de simulación ROS2 utilizando herramientas como Gazebo o RViz. Esto permitirá visualizar el brazo robótico en el entorno virtual y controlar sus movimientos mediante comandos ROS2.
+- Integración del modelo en ROS2: Se integrará el modelo 3D del brazo robótico en el entorno de simulación ROS2 utilizando herramientas como RViz. Esto permitirá visualizar el brazo robótico en el entorno virtual y controlar sus movimientos mediante comandos ROS2.
 
 - Configuración de MoveIt: Se configurará MoveIt para que funcione con el modelo del brazo robótico y el entorno de simulación. Esto implica definir las articulaciones, las propiedades físicas y los límites de movimiento del brazo, así como los parámetros de planificación de movimiento.
 
