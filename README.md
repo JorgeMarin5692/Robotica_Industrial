@@ -12,6 +12,8 @@ Esta etapa inicial fue de vital importancia, ya que sentó las bases para el pos
 
 La precisión y el detalle de los modelos 3D generados en Solidworks no solo fueron útiles para la conceptualización del diseño, sino que también sirvieron como insumo fundamental para la etapa de manufactura. Los modelos digitales pudieron exportarse en formatos compatibles con las impresoras 3D, permitiendo la fabricación precisa y eficiente de cada componente del brazo robótico. De esta manera, las ideas de los estudiantes se materializaron en piezas físicas tangibles.
 
+![WhatsApp Image 2024-06-09 at 6 02 45 PM](https://github.com/JorgeMarin5692/Robotica_Industrial/assets/171969761/d1a17bea-0247-4295-a1cb-0f577bfce9d9)
+
 # Adquisición de los componentes
 
 Tras la meticulosa etapa de diseño 3D, llegó el momento de materializar el brazo robótico mediante la adquisición de los componentes necesarios para su construcción. Con base en las especificaciones técnicas definidas durante la fase de diseño, se procedió a la compra de los siguientes elementos:
