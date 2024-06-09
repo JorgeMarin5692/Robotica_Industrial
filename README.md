@@ -32,6 +32,9 @@ Filamento PLA: Para la impresión 3D de las piezas diseñadas en Solidworks, se 
 
 Tornillería: Para asegurar la fijación precisa y robusta de las piezas impresas en 3D y los componentes electrónicos, se adquirió un surtido de tornillos, tuercas y arandelas de diferentes tamaños y materiales. La selección cuidadosa de la tornillería garantizó la estabilidad y durabilidad del brazo robótico.
 
+![image](https://github.com/JorgeMarin5692/Robotica_Industrial/assets/171969761/cbbf5d78-7773-4c5a-b1d2-1fa2c9968c23)
+
+
 # Entorno de simulación 
 
 Tras haber desarrollado el brazo robótico físico y su sistema de control mediante programación automática, el siguiente paso crucial en el proyecto es la creación de un entorno de simulación virtual. Este entorno permitirá probar, validar y optimizar el funcionamiento del brazo robótico en un ambiente controlado antes de su implementación en el mundo real.
