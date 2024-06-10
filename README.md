@@ -68,4 +68,6 @@ Beneficios del entorno de simulación:
 - Entrenamiento de algoritmos: El entorno de simulación puede utilizarse para entrenar y optimizar algoritmos de control o de planificación de movimiento para el brazo robótico.
 
 - Pruebas en diferentes entornos: Se pueden realizar pruebas en diferentes entornos virtuales para evaluar el comportamiento del brazo robótico en diversas situaciones y condiciones.
+  
+![WhatsApp Image 2024-06-09 at 7 09 23 PM](https://github.com/JorgeMarin5692/Robotica_Industrial/assets/171969761/7dbe2001-61ab-4962-99d3-4752423945d1)
 
