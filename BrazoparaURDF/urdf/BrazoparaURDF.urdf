@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="BrazoparaURDF">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.0026513 0.021626 -5.607E-05"
+        rpy="0 0 0" />
+      <mass
+        value="0.1036" />
+      <inertia
+        ixx="0.00012888"
+        ixy="-1.0446E-06"
+        ixz="1.5043E-07"
+        iyy="0.00021815"
+        iyz="2.4556E-09"
+        izz="0.00014888" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://BrazoparaURDF/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://BrazoparaURDF/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Base_2_link">
+    <inertial>
+      <origin
+        xyz="-0.0066409 0.017974 -0.002134"
+        rpy="0 0 0" />
+      <mass
+        value="0.068942" />
+      <inertia
+        ixx="6.1349E-05"
+        ixy="5.385E-06"
+        ixz="-5.3212E-07"
+        iyy="5.6429E-05"
+        iyz="7.2049E-06"
+        izz="4.7758E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://BrazoparaURDF/meshes/Base_2_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://BrazoparaURDF/meshes/Base_2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Base_2_joint"
+    type="revolute">
+    <origin
+      xyz="0 0 0.056"
+      rpy="1.5708 0 -1.5485" />
+    <parent
+      link="base_link" />
+    <child
+      link="Base_2_link" />
+    <axis
+      xyz="0 1 0" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Eslabon_1_link">
+    <inertial>
+      <origin
+        xyz="6.31E-07 0.057345 0.003764"
+        rpy="0 0 0" />
+      <mass
+        value="0.055061" />
+      <inertia
+        ixx="8.4974E-05"
+        ixy="-4.9166E-10"
+        ixz="-7.0163E-11"
+        iyy="7.7321E-06"
+        iyz="-1.4678E-07"
+        izz="8.8974E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://BrazoparaURDF/meshes/Eslabon_1_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0 0.2549 0.92157 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://BrazoparaURDF/meshes/Eslabon_1_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Eslabon_1_joint"
+    type="revolute">
+    <origin
+      xyz="0 0.040276 -0.013918"
+      rpy="1.5708 1.5586 1.5708" />
+    <parent
+      link="Base_2_link" />
+    <child
+      link="Eslabon_1_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Eslabon_2_link">
+    <inertial>
+      <origin
+        xyz="4.7632E-05 0.039279 0.01141"
+        rpy="0 0 0" />
+      <mass
+        value="0.050182" />
+      <inertia
+        ixx="5.4948E-05"
+        ixy="-6.1748E-08"
+        ixz="-2.9949E-10"
+        iyy="8.944E-06"
+        iyz="-2.5004E-07"
+        izz="5.8237E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://BrazoparaURDF/meshes/Eslabon_2_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://BrazoparaURDF/meshes/Eslabon_2_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Eslabon_2_joint"
+    type="revolute">
+    <origin
+      xyz="0 0.12 0"
+      rpy="-3.1416 0 1.5578" />
+    <parent
+      link="Eslabon_1_link" />
+    <child
+      link="Eslabon_2_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+  <link
+    name="Eslabon_3_link">
+    <inertial>
+      <origin
+        xyz="-9.7623E-05 0.0086149 0.021886"
+        rpy="0 0 0" />
+      <mass
+        value="0.020316" />
+      <inertia
+        ixx="7.2365E-06"
+        ixy="6.558E-08"
+        ixz="1.327E-07"
+        iyy="8.6164E-06"
+        iyz="-1.3265E-06"
+        izz="3.488E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://BrazoparaURDF/meshes/Eslabon_3_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://BrazoparaURDF/meshes/Eslabon_3_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Eslabon_3_joint"
+    type="revolute">
+    <origin
+      xyz="-0.0050995 0.089782 0.0115"
+      rpy="1.5708 -1.5708 0" />
+    <parent
+      link="Eslabon_2_link" />
+    <child
+      link="Eslabon_3_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="0"
+      effort="0"
+      velocity="0" />
+  </joint>
+</robot>
